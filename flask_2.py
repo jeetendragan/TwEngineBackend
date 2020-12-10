@@ -93,6 +93,8 @@ def search():
     else:
         topic = None
 
+    # call solr here and return the list of results.
+        
     result = {
         'echo_query' : query,
         'echo_poi': poi,
